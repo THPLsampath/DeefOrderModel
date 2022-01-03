@@ -27,7 +27,7 @@ from nnabla.utils.image_utils import imread
 from nnabla.ext_utils import get_extension_context
 from nnabla.utils.data_source_loader import download
 
-from utils import read_yaml
+# from utils import read_yaml
 from frames_dataset import read_video
 from model import unlink_all, persistent_all
 from keypoint_detector import detect_keypoint

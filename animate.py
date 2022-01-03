@@ -333,5 +333,5 @@ def main():
     # animate(args)
 
 
-# if __name__ == '__main__':
-    # main()
+if __name__ == '__main__':
+    main()

@@ -116,7 +116,7 @@ def animate(args):
         download_provided_file(
             "https://nnabla.org/pretrained-models/nnabla-examples/GANs/first-order-model/pretrained_fomm_params.h5")
 
-    config = read_yaml(args.config)
+    # config = read_yaml(args.config)
 
     dataset_params = config.dataset_params
     model_params = config.model_params
@@ -330,8 +330,8 @@ def main():
     if args.full:
         assert args.detailed, "specify --detailed to enable --full option."
 
-    animate(args)
+    # animate(args)
 
 
 if __name__ == '__main__':
-    main()
+    # main()
